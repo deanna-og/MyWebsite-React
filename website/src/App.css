@@ -1,0 +1,105 @@
+.profile-image {
+  height: 50px;
+  width: 50px;
+  margin: 20px 20px 20px 20px;
+}
+
+.project-tile a {
+  height: 50px;
+  background-color: #302F4D;
+  color: #F0D3F7;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.project-tile iframe {
+  height: 300px;
+  pointer-events: none;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+  border: 1px;
+  border-style: solid;
+  margin: 20px 35px 20px 35px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile {
+  background-color: #A57982;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  background-color: #F0D3F7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1.welcome-text {
+  font-size: 50px;
+}
+
+p.welcome-text {
+  font-size: 35px;
+}
+
+.welcome-text {
+  color: #120D31;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0px;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #B98EA7;
+}
+
+section {
+  height: 100vh;
+}
+
+.nav a {
+  color: #F0D3F7;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav {
+  overflow: hidden;
+  height: 50px;
+  background-color: #302F4D;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+main {
+  margin-top: 50px;
+}
+
+@media screen and (max-width:700px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
