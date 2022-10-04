@@ -74,24 +74,7 @@ section {
   height: 100vh;
 }
 
-.nav a {
-  color: #F0D3F7;
-  text-decoration: none;
-  font-size: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
-.nav {
-  overflow: hidden;
-  height: 50px;
-  background-color: #302F4D;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
 
 main {
   margin-top: 50px;
